@@ -17,6 +17,16 @@ Clone the repository
 
 `git clone https://github.com/McSnobby/discord-music-bot`
 
+Then make a file called .env in the root folder with the following variables
+```Shell
+# Your discord bot tocken
+AUTH_TOKEN=
+
+# Your discord bot application id
+APP_ID=
+
+```
+
 Then run the following commands to start the bot:
 ```
 npm install
