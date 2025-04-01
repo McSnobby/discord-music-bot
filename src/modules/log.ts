@@ -1,3 +1,4 @@
+import { ReadOnlyDict } from "./types"
 
 
 export default interface Logger {
@@ -18,19 +19,19 @@ export enum LogLevel {
 
 
 export class StdOutLogger implements Logger {
-    private levelMap = new Map<number, string>([
-        [0, "Emergency"],
-        [1, "Alert"],
-        [2, "Critical"],
-        [3, "Error"],
-        [4, "Warning"],
-        [5, "Notice"],
-        [6, "Info"],
-        [7, "Debug"]
-    ])
+    private levelMap: ReadOnlyDict = {
+        0: "Emergency",
+        1: "Alert",
+        2: "Critical",
+        3: "Error",
+        4: "Warning",
+        5: "Notice",
+        6: "Info",
+        7: "Debug"
+    }
 
     log(level: number | LogLevel, message: any): void {
-        const strLevel = this.levelMap.get(level)
+        const strLevel = this.levelMap[level]
         if (level <= 3) {
             console.log(`level: ${strLevel}`)
             console.error("Error: " + message)

@@ -1,7 +1,7 @@
 {
   "name": "music_bot_ts",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A discord music bot",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -9,9 +9,8 @@
     "dev": "npm run build && npm run start",
     "deploy": "node ./dist/scripts/deploy_commands.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "McSnobby",
+  "license": "MIT",
   "type": "commonjs",
   "dependencies": {
     "@discord-player/extractor": "^7.1.0",

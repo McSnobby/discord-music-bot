@@ -9,3 +9,6 @@ export interface HandlerDict {
     readonly [key: string]: HandlerFunc
 }
 
+export interface ReadOnlyDict {
+    readonly [key: number]: string
+}
