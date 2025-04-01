@@ -81,6 +81,7 @@ Pull requests are extreamly welcome!
 This is my first actual Typescript project after failing to develop it in golang (broken modules)<br>
 So mistakes and bugs are probably prevelent
 
-## TODO
+### TODO
 - [ ] Add a command for viewing the queue
 - [ ] Add alternative logging methods
+- [ ] Add other commands that expose discord-player's functionality
