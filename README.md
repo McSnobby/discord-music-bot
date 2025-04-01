@@ -15,9 +15,11 @@ You have to create a discord application using the [discord developer portal](ht
 
 Clone the repository
 
-`git clone https://github.com/McSnobby/discord-music-bot`
-
+```Shell
+git clone https://github.com/McSnobby/discord-music-bot
+```
 Then make a file called .env in the root folder with the following variables
+
 ```Shell
 # Your discord bot tocken
 AUTH_TOKEN=
@@ -28,24 +30,30 @@ APP_ID=
 ```
 
 Then run the following commands to start the bot:
-```
+
+```Shell
 npm install
-
+```
+```Shell
 npm run build
-
+```
+```Shell
 npm run deploy
-
+```
+```Shell
 npm run start
 ```
 Or in one command:
 
-`npm install && npm run build && npm run deploy && npm run start`
+```Shell
+npm install && npm run build && npm run deploy && npm run start
+```
 
 Then you  can add the bot to the server and you're good to go
 
 ## Usage
 
-The bot currently support the following commands
+The bot currently support the following commands:
 
 ### /play
 To play a song and add it to the queue
@@ -72,3 +80,7 @@ Pull requests are extreamly welcome!
 
 This is my first actual Typescript project after failing to develop it in golang (broken modules)<br>
 So mistakes and bugs are probably prevelent
+
+## TODO
+- [ ] Add a command for viewing the queue
+- [ ] Add alternative logging methods
