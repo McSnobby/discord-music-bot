@@ -40,7 +40,8 @@ export default class App {
     }
 
     public async load() {
-        await this.player.extractors.loadMulti([YoutubeiExtractor, ...DefaultExtractors])
+        await this.player.extractors.loadMulti(DefaultExtractors)
+        await this.player.extractors.register(YoutubeiExtractor, {})
     }
 
     private getBot(guildId: string): Bot {
