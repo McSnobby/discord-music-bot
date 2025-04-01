@@ -1,13 +1,17 @@
 # A Discord Music bot
 
-A simple discord music bot written in typescript
-Using mainly [discord.js](https://github.com/discordjs/discord.js) and [discord-player](https://github.com/Androz2091/discord-player)
+A simple discord music bot written in typescript.<br>
+It mainly uses [discord.js](https://github.com/discordjs/discord.js) and [discord-player](https://github.com/Androz2091/discord-player)
 
 It has youtube support through [discord-player-youtubei](https://github.com/retrouser955/discord-player-youtubei)
 
 ## Installation
 
+### Create the bot
+
 You have to create a discord application using the [discord developer portal](https://discord.com/developers/docs/intro)
+
+### Run the bot
 
 Clone the repository
 
@@ -54,6 +58,7 @@ The bot supports the same locations as discord-players default extractors + yout
 
 ## Notes
 
-Pull requests are extreamly welcome
-This is my first actual Typescript project after failing to develop it in golang (broken modules)
+Pull requests are extreamly welcome!
+
+This is my first actual Typescript project after failing to develop it in golang (broken modules)<br>
 So mistakes and bugs are probably prevelent
