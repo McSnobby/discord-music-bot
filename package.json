@@ -1,0 +1,29 @@
+{
+  "name": "music_bot_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cmd": "tsc scripts/deploy_commands.ts --target esnext --module NodeNext --moduleResolution nodenext && node scipts/deploy_commands.js && rm scripts/deploy_commands.js",
+    "start": "tsc && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@discord-player/extractor": "^7.1.0",
+    "async-mutex": "^0.5.0",
+    "bgutils-js": "^3.2.0",
+    "discord-player": "^7.1.0",
+    "discord-player-youtubei": "^1.4.3",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^22.13.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
