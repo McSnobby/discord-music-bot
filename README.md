@@ -78,7 +78,7 @@ The bot supports the same locations as discord-players default extractors + yout
 
 Pull requests are extreamly welcome!
 
-This is my first actual Typescript project after failing to develop it in golang (broken modules)<br>
+This is my first actual Typescript project after failing to develop it in golang<br>
 So mistakes and bugs are probably prevelent
 
 ### TODO
